@@ -1,6 +1,6 @@
 .fa {
     padding: 15px;
-    font-size: 40px;
+    font-size: 60px;
     width: 20px;
     text-align: center;
     text-decoration: none;
@@ -12,35 +12,26 @@
     opacity: 0.7;
   }
 .fa-twitter {
-    background: #55acee;
+    background: #1da1f2;
     color: white;
 }
 .fa-linkedin {
-    background: #3C95C4;
+    background: #0e76a8;
     color: white;
 }
 .fa-google {
-    background: #E46F62;
+    background: #d44638;
     color: white;
 }
 img {
-    width: 300px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 275px;
+    padding: 100px;
+    background-color: peru;
 }
 html {
     columns: 2;
     background-color: #f1f1f1;
     font-family: 'Noto Serif', serif;
-    
-}
-p {
-    vertical-align: 50%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: slategray;
 }
 h1 {
     vertical-align: 50%;
@@ -52,14 +43,21 @@ ol {
     vertical-align: 50%;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: slategray;
 }
 hr {
     display: block;
     margin-top: 0.5em;
-    margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
+  }
+  #bodyText {
+    color: slategray;
+    padding-bottom: 20px;
+    vertical-align: 50%;
+  }
+  #aboutMe {
+      font-weight: 700;
+      padding-top: 10px;
   }
